@@ -34,3 +34,34 @@ It includes a hamburger menu for small screens and adapts smoothly to mobile, ta
    git clone https://github.com/Akash-088/Mobile-Friendly-Webpage.git
    ```
 ---
+
+📁 Folder Structure
+
+Mobile-Friendly-Webpage/
+│
+├── index.html      
+├── style.css       
+└── README.md       
+
+---
+
+🖼 Screenshots
+
+Desktop View:
+![Screenshot 2025-06-27 185308](https://github.com/user-attachments/assets/b65664d6-8d0e-4068-9964-68f08557d198)
+
+Mobile View:
+![Screenshot 2025-06-27 185253](https://github.com/user-attachments/assets/0c9c2a68-9a3e-449d-98d0-e78ddb8ddc97)
+
+---
+
+🧠 Author
+
+Akash Gupta
+
+---
+
+📜 License
+
+This project is open-source and free to use under the MIT License.
+
