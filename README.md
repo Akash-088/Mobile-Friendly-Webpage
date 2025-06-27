@@ -38,9 +38,9 @@ It includes a hamburger menu for small screens and adapts smoothly to mobile, ta
 📁 Folder Structure
 
 Mobile-Friendly-Webpage/
-│
 ├── index.html      
-├── style.css       
+├── style.css     
+├── img.png!w700wp
 └── README.md       
 
 ---
