@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Responsive Website</h1>
+    <button class="hamburger" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <ul id="menuList">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="column">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel.</p>
+    </section>
+    <section class="column">
+      <h2>Our Services</h2>
+      <p>Praesent suscipit ultrices magna, vitae cursus nunc facilisis at. Duis sagittis.</p>
+    </section>
+  </main>
+
+  <section>
+    <img src="img.png!w700wp" alt="logo" />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Responsive Site</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const menuList = document.getElementById('menuList');
+
+    menuBtn.addEventListener('click', () => {
+      menuList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
